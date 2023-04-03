@@ -198,7 +198,7 @@ public class Tenda {
 
         afegirCompra(new Compra(proveidors.get(0), juguetes.get(0), LocalDate.now(), 50));
         novaVenta(new Venta(juguetes.get(1), clients.get(0), 5, 0, LocalDate.now()));
-        //quinProveidorTeLaJugueta(new Jugueta("Marca 1", marques.get(0), "Set de Star Wars", "", RangoEdad.QUATRE_A_VUIT));
+        //quinProveidorTeLaJugueta(new Jugueta("Marca 1", marques.get(0), "Set de Star Wars", "n", RangoEdad.QUATRE_A_VUIT));
     }
 }
 

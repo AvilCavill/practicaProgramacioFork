@@ -70,5 +70,17 @@ public class Proveidor {
         }
         return null;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+            " nom='" + getNom() + "'" +
+            ", telefono='" + getTelefono() + "'" +
+            ", eMail='" + geteMail() + "'" +
+            ", direccio='" + getDireccio() + "'" +
+            ", cataleg='" + getCataleg() + "'" +
+            "}";
+    }
+
 }
 

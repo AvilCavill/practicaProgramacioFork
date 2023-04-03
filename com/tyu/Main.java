@@ -66,7 +66,20 @@ public class Main {
         System.out.println("\n----------Proveidors-------------");
         Tenda t1 = new Tenda();
         Proveidor p1 = t1.getProveidors().get(0);
-        //System.out.println("Proveidor 1: " + p1.quinProveidorTeLaJugueta());
+        System.out.println("Proveidor 1: " + p1.getNom());
+        System.out.println("Direcció: " + p1.getDireccio());
+        System.out.println("----------------------------");
+        Proveidor p2 = t1.getProveidors().get(1);
+        System.out.println("Proveidor 2: " + p2.getNom());
+        System.out.println("Direcció: " + p2.getDireccio());
+        System.out.println("----------------------------");
+        Proveidor p3 = t1.getProveidors().get(2);
+        System.out.println("Proveidor 3: " + p3.getNom());
+        System.out.println("Direcció: " + p3.getDireccio());
+        System.out.println("----------------------------");
+        Proveidor p4 = t1.getProveidors().get(3);
+        System.out.println("Proveidor 4: " + p4.getNom());
+        System.out.println("Direcció: " + p4.getDireccio());
         
 
     }
